@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    transition: 0.5s; 
+    background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );    
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height:70vh;
+    background-image: linear-gradient(to right bottom, #5656d4a8, #1acf41a8);
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.86);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.box{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.86);
+}
+
+.button {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    background-image: linear-gradient( 111.4deg,  rgb(76, 131, 207) 6.5%, rgb(28, 26, 83) 93.2% ); 
+    font-size:x-large;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(254, 254, 254, 0.86);
+
+}
+.button:hover{
+    font-size:27px;
+    transition:0.3s;
+}
+.number{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.number img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:black;
+    height: 100%;
+    text-align: center;
+}
+.helo{
+    font-size: 7.5rem;
+    font-weight: 600;
+    left:20px;
+    top:20px;
+    position: absolute;
+    color: rgba(67, 65, 65, 0.477);
+}
+
+.quotes {
+    width: 100%;
+    font-family:cursive;
+    font-size:xx-large;
+    font-weight: 200;
+    font-size:x-large;
+}
+.author{
+    font-size:smaller;
+    font-weight: 100;
+    right:10px;
+    font-family:cursive;
+    bottom: 10px;
+    position: absolute;
+}
